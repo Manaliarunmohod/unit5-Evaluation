@@ -1,0 +1,84 @@
+{
+  "houses": [
+    {
+      "name": "matashree",
+      "ownerName": "prem",
+      "address": "Ap-Examba Tal-chikodi Dist-Belgaum, Near Jolle College",
+      "areaCode": "2015",
+      "rent": "5000",
+      "preferredTenant": "bachelor",
+      "image": "https://media.istockphoto.com/photos/large-house-with-steep-roof-and-side-entry-three-car-garage-picture-id1272163106?b=1&k=20&m=1272163106&s=170667a&w=0&h=pTjbBRKTcnhs-oIGpuSB4TyAE5768gp0BefDXxyUNTU=",
+      "id": 2
+    },
+    {
+      "name": "omkar nilay",
+      "ownerName": "prem",
+      "address": "Ap-Examba Tal-chikodi Dist-Belgaum, Near Jolle College",
+      "areaCode": "1500",
+      "rent": "10000",
+      "preferredTenant": "married",
+      "image": "https://media.istockphoto.com/photos/home-with-blue-siding-and-stone-faade-on-base-of-home-picture-id1272128530?b=1&k=20&m=1272128530&s=170667a&w=0&h=k9lT5-DEmkmehDb-EKRHoP1-op2DTgz4ibiWGXmj7h8=",
+      "id": 3
+    },
+    {
+      "name": "Prem hulikoppe",
+      "ownerName": "prem",
+      "address": "Manjunath nilaya , 1cross, chikkathoguru",
+      "areaCode": "1521",
+      "rent": "1232",
+      "preferredTenant": "bachelor",
+      "image": "https://media.istockphoto.com/photos/home-with-blue-siding-and-stone-faade-on-base-of-home-picture-id1272128530?b=1&k=20&m=1272128530&s=170667a&w=0&h=k9lT5-DEmkmehDb-EKRHoP1-op2DTgz4ibiWGXmj7h8=",
+      "id": 4
+    },
+    {
+      "name": "prem",
+      "ownerName": "prem",
+      "address": "Nanadi",
+      "areaCode": "1212",
+      "rent": "54126",
+      "preferredTenant": "married",
+      "image": "https://media.istockphoto.com/photos/large-house-with-steep-roof-and-side-entry-three-car-garage-picture-id1272163106?b=1&k=20&m=1272163106&s=170667a&w=0&h=pTjbBRKTcnhs-oIGpuSB4TyAE5768gp0BefDXxyUNTU=",
+      "id": 5
+    },
+    {
+      "name": "Prem hulikoppe",
+      "ownerName": "prem",
+      "address": "kudachi",
+      "areaCode": "3344",
+      "rent": "32433",
+      "preferredTenant": "married",
+      "image": "https://media.istockphoto.com/photos/large-house-with-steep-roof-and-side-entry-three-car-garage-picture-id1272163106?b=1&k=20&m=1272163106&s=170667a&w=0&h=pTjbBRKTcnhs-oIGpuSB4TyAE5768gp0BefDXxyUNTU=",
+      "id": 6
+    },
+    {
+      "name": "Akhilesh Javalagi",
+      "ownerName": "vdfbgre",
+      "address": "near yallamma temple, hunnur, ",
+      "areaCode": "dsfse",
+      "rent": "3000",
+      "preferredTenant": "married",
+      "image": "sdafg",
+      "id": 7
+    },
+    {
+      "name": "Akhilesh Javalagi",
+      "ownerName": "vdfbgre",
+      "address": "near yallamma temple, hunnur, ",
+      "areaCode": "dsfse",
+      "rent": "3000",
+      "preferredTenant": "bachelor",
+      "image": "sdafg",
+      "id": 8
+    },
+    {
+      "name": "MANALI MOHOD",
+      "ownerName": "mani",
+      "address": "ugijlo",
+      "areaCode": "12345",
+      "rent": "hfv ",
+      "preferredTenant": "bachelor",
+      "image": "vhj",
+      "id": 9
+    }
+  ]
+}
