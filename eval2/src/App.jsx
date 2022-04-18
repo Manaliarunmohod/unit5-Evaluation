@@ -1,16 +1,30 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import './App.css';
+import axios from 'axios';
+import { useEffect, useState } from "react";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [displayForm, setdisplayForm] = useState(false);
+  const [data, setData] = useState([]);
+
+  useEffect(()=> {
+    displayData();
+  }, [displayForm]);
+
+
+  function displayData() {
+    axios.get("http://localhost:8080/students").then(res => setData(res.data))
+    setData(data);
+  }
 
   return (
     <div className="App">
-      <div>Hello</div>
-      <div>Hiiii</div>
+      <button onClick={ () => {
+        setDisplayForm(!displayForm);
+      }} className="toggleForm"></button>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
