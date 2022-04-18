@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 function App() {
 
-  const [displayForm, setdisplayForm] = useState(false);
+  const [displayForm, setDisplayForm] = useState(false);
   const [data, setData] = useState([]);
 
   useEffect(()=> {
@@ -18,11 +18,17 @@ function App() {
     setData(data);
   }
 
+  function toggleDisplay() {
+    setDisplayForm(!displayForm);
+  }
+
   return (
     <div className="App">
       <button onClick={ () => {
         setDisplayForm(!displayForm);
-      }} className="toggleForm"></button>
+      }} className="toggleForm"> {displayForm? "Show Data":"Show Form" } </button>
+
+      {displayForm? <AddStudent toggleDisplay={toggleDisplay} />:< ShowStudent data={data} setData={setData} />}
     </div>
   );
 }
