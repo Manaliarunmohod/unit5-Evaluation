@@ -2,6 +2,9 @@ import './App.css';
 import axios from 'axios';
 import { useEffect, useState } from "react";
 
+import {AddStudent} from "./components/AddStudent";
+import {ShowStudent} from "./components/ShowStudent";
+
 
 function App() {
 
