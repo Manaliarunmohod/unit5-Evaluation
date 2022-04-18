@@ -6,7 +6,7 @@ function ShowStudent({data, setData}){
         <div className="container">
             <div className="subCon">
                 <button onClick={()=> {
-                    //let newarr = [...data]
+                    
 
                 }}>click</button>
             </div>
